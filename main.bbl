@@ -1,0 +1,318 @@
+\begin{thebibliography}{41}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Burgess and Moore(2007)]{StandardModelPrimer}
+C.~Burgess and G.~Moore.
+\newblock The standard model: A primer.
+\newblock 2007.
+
+\bibitem[Glashow(1961)]{Glashow:1961tr}
+S.L. Glashow.
+\newblock {Partial Symmetries of Weak Interactions}.
+\newblock \emph{Nucl.Phys.}, 22:\penalty0 579--588, 1961.
+\newblock \doi{10.1016/0029-5582(61)90469-2}.
+
+\bibitem[Higgs(1964)]{PhysRevLett.13.508}
+Peter~W. Higgs.
+\newblock Broken symmetries and the masses of gauge bosons.
+\newblock \emph{Phys. Rev. Lett.}, 13:\penalty0 508--509, Oct 1964.
+\newblock \doi{10.1103/PhysRevLett.13.508}.
+\newblock URL \url{http://link.aps.org/doi/10.1103/PhysRevLett.13.508}.
+
+\bibitem[Weinberg(1967)]{Weinberg:1967tq}
+Steven Weinberg.
+\newblock {A Model of Leptons}.
+\newblock \emph{Phys.Rev.Lett.}, 19:\penalty0 1264--1266, 1967.
+\newblock \doi{10.1103/PhysRevLett.19.1264}.
+
+\bibitem[{Salam} and {Ward}(1964)]{1964PhL....13..168S}
+A.~{Salam} and J.~C. {Ward}.
+\newblock {Electromagnetic and weak interactions}.
+\newblock \emph{Physics Letters}, 13:\penalty0 168--171, November 1964.
+\newblock \doi{10.1016/0031-9163(64)90711-5}.
+
+\bibitem[Glashow et~al.(1970)Glashow, Iliopoulos, and Maiani]{PhysRevD.2.1285}
+S.~L. Glashow, J.~Iliopoulos, and L.~Maiani.
+\newblock Weak interactions with lepton-hadron symmetry.
+\newblock \emph{Phys. Rev. D}, 2:\penalty0 1285--1292, Oct 1970.
+\newblock \doi{10.1103/PhysRevD.2.1285}.
+\newblock URL \url{http://link.aps.org/doi/10.1103/PhysRevD.2.1285}.
+
+\bibitem[Weinberg(1971)]{PhysRevLett.27.1688}
+Steven Weinberg.
+\newblock Physical processes in a convergent theory of the weak and
+  electromagnetic interactions.
+\newblock \emph{Phys. Rev. Lett.}, 27:\penalty0 1688--1691, Dec 1971.
+\newblock \doi{10.1103/PhysRevLett.27.1688}.
+\newblock URL \url{http://link.aps.org/doi/10.1103/PhysRevLett.27.1688}.
+
+\bibitem[Cabibbo(1963)]{PhysRevLett.10.531}
+Nicola Cabibbo.
+\newblock Unitary symmetry and leptonic decays.
+\newblock \emph{Phys. Rev. Lett.}, 10:\penalty0 531--533, Jun 1963.
+\newblock \doi{10.1103/PhysRevLett.10.531}.
+\newblock URL \url{http://link.aps.org/doi/10.1103/PhysRevLett.10.531}.
+
+\bibitem[Beringer et~al.(2012)Beringer, Arguin, Barnett, Copic, Dahl, Groom,
+  Lin, Lys, Murayama, Wohl, Yao, Zyla, Amsler, Antonelli, Asner, Baer, Band,
+  Basaglia, Bauer, Beatty, Belousov, Bergren, Bernardi, Bertl, Bethke, Bichsel,
+  Biebel, Blucher, Blusk, Brooijmans, Buchmueller, Cahn, Carena, Ceccucci,
+  Chakraborty, Chen, Chivukula, Cowan, D'Ambrosio, Damour, de~Florian,
+  de~Gouv\^ea, DeGrand, de~Jong, Dissertori, Dobrescu, Doser, Drees, Edwards,
+  Eidelman, Erler, Ezhela, Fetscher, Fields, Foster, Gaisser, Garren, Gerber,
+  Gerbier, Gherghetta, Golwala, Goodman, Grab, Gritsan, Grivaz, Gr\"unewald,
+  Gurtu, Gutsche, Haber, Hagiwara, Hagmann, Hanhart, Hashimoto, Hayes, Heffner,
+  Heltsley, Hern\'andez-Rey, Hikasa, H\"ocker, Holder, Holtkamp, Huston,
+  Jackson, Johnson, Junk, Karlen, Kirkby, Klein, Klempt, Kowalewski, Krauss,
+  Kreps, Krusche, Kuyanov, Kwon, Lahav, Laiho, Langacker, Liddle, Ligeti, Liss,
+  Littenberg, Lugovsky, Lugovsky, Mannel, Manohar, Marciano, Martin, Masoni,
+  Matthews, Milstead, Miquel, M\"onig, Moortgat, Nakamura, Narain, Nason,
+  Navas, Neubert, Nevski, Nir, Olive, Pape, Parsons, Patrignani, Peacock,
+  Petcov, Piepke, Pomarol, Punzi, Quadt, Raby, Raffelt, Ratcliff, Richardson,
+  Roesler, Rolli, Romaniouk, Rosenberg, Rosner, Sachrajda, Sakai, Salam,
+  Sarkar, Sauli, Schneider, Scholberg, Scott, Seligman, Shaevitz, Sharpe,
+  Silari, Sj\"ostrand, Skands, Smith, Smoot, Spanier, Spieler, Stahl, Stanev,
+  Stone, Sumiyoshi, Syphers, Takahashi, Tanabashi, Terning, Titov, Tkachenko,
+  T\"ornqvist, Tovey, Valencia, van Bibber, Venanzoni, Vincter, Vogel, Vogt,
+  Walkowiak, Walter, Ward, Watari, Weiglein, Weinberg, Wiencke, Wolfenstein,
+  Womersley, Woody, Workman, Yamamoto, Zeller, Zenin, Zhang, Zhu, Harper,
+  Lugovsky, and Schaffner]{PhysRevD.86.010001}
+J.~Beringer, J.~F. Arguin, R.~M. Barnett, K.~Copic, O.~Dahl, D.~E. Groom, C.~J.
+  Lin, J.~Lys, H.~Murayama, C.~G. Wohl, W.~M. Yao, P.~A. Zyla, C.~Amsler,
+  M.~Antonelli, D.~M. Asner, H.~Baer, H.~R. Band, T.~Basaglia, C.~W. Bauer,
+  J.~J. Beatty, V.~I. Belousov, E.~Bergren, G.~Bernardi, W.~Bertl, S.~Bethke,
+  H.~Bichsel, O.~Biebel, E.~Blucher, S.~Blusk, G.~Brooijmans, O.~Buchmueller,
+  R.~N. Cahn, M.~Carena, A.~Ceccucci, D.~Chakraborty, M.~C. Chen, R.~S.
+  Chivukula, G.~Cowan, G.~D'Ambrosio, T.~Damour, D.~de~Florian, A.~de~Gouv\^ea,
+  T.~DeGrand, P.~de~Jong, G.~Dissertori, B.~Dobrescu, M.~Doser, M.~Drees, D.~A.
+  Edwards, S.~Eidelman, J.~Erler, V.~V. Ezhela, W.~Fetscher, B.~D. Fields,
+  B.~Foster, T.~K. Gaisser, L.~Garren, H.~J. Gerber, G.~Gerbier, T.~Gherghetta,
+  S.~Golwala, M.~Goodman, C.~Grab, A.~V. Gritsan, J.~F. Grivaz, M.~Gr\"unewald,
+  A.~Gurtu, T.~Gutsche, H.~E. Haber, K.~Hagiwara, C.~Hagmann, C.~Hanhart,
+  S.~Hashimoto, K.~G. Hayes, M.~Heffner, B.~Heltsley, J.~J. Hern\'andez-Rey,
+  K.~Hikasa, A.~H\"ocker, J.~Holder, A.~Holtkamp, J.~Huston, J.~D. Jackson,
+  K.~F. Johnson, T.~Junk, D.~Karlen, D.~Kirkby, S.~R. Klein, E.~Klempt, R.~V.
+  Kowalewski, F.~Krauss, M.~Kreps, B.~Krusche, Yu.~V. Kuyanov, Y.~Kwon,
+  O.~Lahav, J.~Laiho, P.~Langacker, A.~Liddle, Z.~Ligeti, T.~M. Liss,
+  L.~Littenberg, K.~S. Lugovsky, S.~B. Lugovsky, T.~Mannel, A.~V. Manohar,
+  W.~J. Marciano, A.~D. Martin, A.~Masoni, J.~Matthews, D.~Milstead, R.~Miquel,
+  K.~M\"onig, F.~Moortgat, K.~Nakamura, M.~Narain, P.~Nason, S.~Navas,
+  M.~Neubert, P.~Nevski, Y.~Nir, K.~A. Olive, L.~Pape, J.~Parsons,
+  C.~Patrignani, J.~A. Peacock, S.~T. Petcov, A.~Piepke, A.~Pomarol, G.~Punzi,
+  A.~Quadt, S.~Raby, G.~Raffelt, B.~N. Ratcliff, P.~Richardson, S.~Roesler,
+  S.~Rolli, A.~Romaniouk, L.~J. Rosenberg, J.~L. Rosner, C.~T. Sachrajda,
+  Y.~Sakai, G.~P. Salam, S.~Sarkar, F.~Sauli, O.~Schneider, K.~Scholberg,
+  D.~Scott, W.~G. Seligman, M.~H. Shaevitz, S.~R. Sharpe, M.~Silari,
+  T.~Sj\"ostrand, P.~Skands, J.~G. Smith, G.~F. Smoot, S.~Spanier, H.~Spieler,
+  A.~Stahl, T.~Stanev, S.~L. Stone, T.~Sumiyoshi, M.~J. Syphers, F.~Takahashi,
+  M.~Tanabashi, J.~Terning, M.~Titov, N.~P. Tkachenko, N.~A. T\"ornqvist,
+  D.~Tovey, G.~Valencia, K.~van Bibber, G.~Venanzoni, M.~G. Vincter, P.~Vogel,
+  A.~Vogt, W.~Walkowiak, C.~W. Walter, D.~R. Ward, T.~Watari, G.~Weiglein,
+  E.~J. Weinberg, L.~R. Wiencke, L.~Wolfenstein, J.~Womersley, C.~L. Woody,
+  R.~L. Workman, A.~Yamamoto, G.~P. Zeller, O.~V. Zenin, J.~Zhang, R.~Y. Zhu,
+  G.~Harper, V.~S. Lugovsky, and P.~Schaffner.
+\newblock Review of particle physics.
+\newblock \emph{Phys. Rev. D}, 86:\penalty0 010001, Jul 2012.
+\newblock \doi{10.1103/PhysRevD.86.010001}.
+\newblock URL \url{http://link.aps.org/doi/10.1103/PhysRevD.86.010001}.
+
+\bibitem[Halzen and Martin(1984)]{HalzenAndMartin}
+F.~Halzen and A.~D. Martin.
+\newblock Quarks and leptons: an introductory course in modern particle
+  physics.
+\newblock 1984.
+
+\bibitem[Blumlein et~al.(1997)Blumlein, Boos, and Kryukov]{Blumlein:1996qp}
+Johannes Blumlein, Edward Boos, and Alexander Kryukov.
+\newblock {Leptoquark pair production in hadronic interactions}.
+\newblock \emph{Z.Phys.}, C76:\penalty0 137--153, 1997.
+\newblock \doi{10.1007/s002880050538}.
+
+\bibitem[Georgi and Glashow(1974)]{PhysRevLett.32.438}
+Howard Georgi and S.~L. Glashow.
+\newblock Unity of all elementary-particle forces.
+\newblock \emph{Phys. Rev. Lett.}, 32:\penalty0 438, 1974.
+
+\bibitem[Pati and Salam(1973)]{Pati:1973uk}
+Jogesh~C. Pati and Abdus Salam.
+\newblock {Unified lepton-hadron symmetry and a gauge theory of the basic
+  interactions}.
+\newblock \emph{Phys. Rev. D}, 8:\penalty0 1240, 1973.
+\newblock \doi{10.1103/PhysRevD.8.1240}.
+
+\bibitem[Pati and Salam(1974)]{Pati:1974yy}
+Jogesh~C. Pati and Abdus Salam.
+\newblock {Lepton number as the fourth color}.
+\newblock \emph{Phys. Rev. D}, 10:\penalty0 275, 1974.
+\newblock \doi{10.1103/PhysRevD.11.703.2}.
+
+\bibitem[Murayama and Yanagida(1992)]{Murayama:1991ah}
+H.~Murayama and T.~Yanagida.
+\newblock {A viable SU(5) GUT with light leptoquark bosons}.
+\newblock \emph{Mod. Phys. Lett. A}, 7:\penalty0 147, 1992.
+\newblock \doi{10.1142/S0217732392000070}.
+
+\bibitem[Fritzsch and Minkowski(1975)]{Fritzsch:1974nn}
+Harald Fritzsch and Peter Minkowski.
+\newblock {Unified interactions of leptons and hadrons}.
+\newblock \emph{Annals Phys.}, 93:\penalty0 193, 1975.
+\newblock \doi{10.1016/0003-4916(75)90211-0}.
+
+\bibitem[Senjanovic and Sokorac(1983)]{Senjanovic:1982ex}
+Goran Senjanovic and Aleksandar Sokorac.
+\newblock {Light leptoquarks in SO(10)}.
+\newblock \emph{Z. Phys. C}, 20:\penalty0 255, 1983.
+\newblock \doi{10.1007/BF01574858}.
+
+\bibitem[Frampton and Lee(1990)]{PhysRevLett.65.2209}
+Paul~H. Frampton and Bum~Hoon Lee.
+\newblock Su (15) grand unification.
+\newblock \emph{Phys. Rev. Lett.}, 65:\penalty0 2209, Oct 1990.
+\newblock \doi{10.1103/PhysRevLett.65.2209}.
+\newblock URL \url{http://link.aps.org/doi/10.1103/PhysRevLett.65.2209}.
+
+\bibitem[Frampton and Kephart(1990)]{Frampton:1990hz}
+Paul~H. Frampton and Thomas~W. Kephart.
+\newblock {Higgs sector and proton decay in SU(15) grand unification}.
+\newblock \emph{Phys. Rev. D}, 42:\penalty0 3892, 1990.
+\newblock \doi{10.1103/PhysRevD.42.3892}.
+
+\bibitem[Dimopoulos and Susskind(1979)]{Dimopoulos:1979es}
+Savas Dimopoulos and Leonard Susskind.
+\newblock {Mass without scalars}.
+\newblock \emph{Nucl. Phys. B}, 155:\penalty0 237, 1979.
+\newblock \doi{10.1016/0550-3213(79)90364-X}.
+
+\bibitem[Dimopoulos(1980)]{Dimopoulos:1979sp}
+Savas Dimopoulos.
+\newblock {Technicolored signatures}.
+\newblock \emph{Nucl. Phys. B}, 168:\penalty0 69, 1980.
+\newblock \doi{10.1016/0550-3213(80)90277-1}.
+
+\bibitem[Farhi and Susskind(1981)]{Farhi:1980xs}
+Edward Farhi and Leonard Susskind.
+\newblock {Technicolor}.
+\newblock \emph{Phys. Rept.}, 74:\penalty0 277, 1981.
+\newblock \doi{10.1016/0370-1573(81)90173-3}.
+
+\bibitem[Schrempp and Schrempp(1985)]{Schrempp:1984nj}
+Barbara Schrempp and Fridger Schrempp.
+\newblock {Light leptoquarks}.
+\newblock \emph{Phys. Lett. B}, 153:\penalty0 101, 1985.
+\newblock \doi{10.1016/0370-2693(85)91450-9}.
+
+\bibitem[Buchmuller and Wyler(1986)]{Buchmuller:1986iq}
+W.~Buchmuller and D.~Wyler.
+\newblock {Constraints on SU(5) type leptoquarks}.
+\newblock \emph{Phys. Lett. B}, 177:\penalty0 377, 1986.
+\newblock \doi{10.1016/0370-2693(86)90771-9}.
+
+\bibitem[Shanker(1982)]{FCNC}
+O.~Shanker.
+\newblock $\pi$l2, kl3, and k$^0$-$\bar{K^0}$ constraints on leptoquarks and
+  supersymmetric particles.
+\newblock \emph{Nucl. Phys. B}, 204:\penalty0 375, 1982.
+\newblock \doi{10.1016/0550-3213(82)90196-1}.
+
+\bibitem[Belyaev et~al.(2005)Belyaev, Leroy, Mehdiyev, and
+  Pukhov]{Belyaev:2005ew}
+Alexander Belyaev, Claude Leroy, Rashid Mehdiyev, and Alexander Pukhov.
+\newblock {Leptoquark single and pair production at LHC with CalcHEP/CompHEP in
+  the complete model}.
+\newblock \emph{JHEP}, 09:\penalty0 005, 2005.
+\newblock \doi{10.1088/1126-6708/2005/09/005}.
+
+\bibitem[Buchmuller et~al.(1987)Buchmuller, Ruckl, and
+  Wyler]{Buchmuller:1986zs}
+W.~Buchmuller, R.~Ruckl, and D.~Wyler.
+\newblock {Leptoquarks in lepton - quark collisions}.
+\newblock \emph{Phys. Lett. B}, 191:\penalty0 442, 1987.
+\newblock \doi{10.1016/0370-2693(87)90637-X}.
+
+\bibitem[Hewett and Rizzo(1997)]{Hewett:1997ce}
+JoAnne~L. Hewett and Thomas~G. Rizzo.
+\newblock {Much ado about leptoquarks: A Comprehensive analysis}.
+\newblock \emph{Phys. Rev.}, D56:\penalty0 5709--5724, 1997.
+\newblock \doi{10.1103/PhysRevD.56.5709}.
+
+\bibitem[Aid et~al.(1996)]{Aid:1995wd}
+S.~Aid et~al.
+\newblock {A Search for leptoquarks at HERA}.
+\newblock \emph{Phys. Lett.}, B369:\penalty0 173--185, 1996.
+\newblock \doi{10.1016/0370-2693(95)01601-5}.
+
+\bibitem[Abt et~al.(1993)]{Abt:1993nr}
+I.~Abt et~al.
+\newblock {A Search for leptoquarks, leptogluons and excited leptons in H1 at
+  HERA}.
+\newblock \emph{Nucl. Phys.}, B396:\penalty0 3--26, 1993.
+\newblock \doi{10.1016/0550-3213(93)90255-N}.
+
+\bibitem[Aaron et~al.(2011)Aaron, Alexa, Andreev, Backovic, Baghdasaryan,
+  et~al.]{Collaboration:2011qaa}
+F.D. Aaron, C.~Alexa, V.~Andreev, S.~Backovic, A.~Baghdasaryan, et~al.
+\newblock {Search for first generation leptoquarks in ep collisions at HERA}.
+\newblock \emph{Phys. Lett. B}, 704:\penalty0 388, 2011.
+\newblock \doi{10.1016/j.physletb.2011.09.017}.
+
+\bibitem[Derrick et~al.(1993)]{Derrick:1993by}
+M.~Derrick et~al.
+\newblock {Search for leptoquarks with the ZEUS detector}.
+\newblock \emph{Phys. Lett.}, B306:\penalty0 173--186, 1993.
+\newblock \doi{10.1016/0370-2693(93)91155-G}.
+
+\bibitem[H1e()]{H1excess}
+
+
+\bibitem[ZEU()]{ZEUSexcess}
+
+
+\bibitem[Abazov et~al.(2007)]{Abazov:2006ej}
+V.M. Abazov et~al.
+\newblock {Search for single production of scalar leptoquarks in p anti-p
+  collisions decaying into muons and quarks with the D0 detector}.
+\newblock \emph{Phys. Lett. B}, 647:\penalty0 74, 2007.
+\newblock \doi{10.1016/j.physletb.2007.01.064}.
+
+\bibitem[Evans and Bryant(2008)]{LHCmachine}
+Lyndon Evans and Philip Bryant.
+\newblock {LHC Machine}.
+\newblock \emph{JINST}, 3:\penalty0 S08001, 2008.
+\newblock \doi{10.1088/1748-0221/3/08/S08001}.
+
+\bibitem[Chatrchyan et~al.(2008)]{CMSdetector}
+S.~Chatrchyan et~al.
+\newblock {The CMS experiment at the CERN LHC}.
+\newblock \emph{JINST}, 3:\penalty0 S08004, 2008.
+\newblock \doi{10.1088/1748-0221/3/08/S08004}.
+
+\bibitem[Lamont(2013)]{LHCstatus}
+Mike Lamont.
+\newblock Status of the lhc.
+\newblock \emph{Journal of Physics: Conference Series}, 455\penalty0
+  (1):\penalty0 012001, 2013.
+\newblock URL \url{http://stacks.iop.org/1742-6596/455/i=1/a=012001}.
+
+\bibitem[collaboration(2013)]{CMSperformance}
+The~CMS collaboration.
+\newblock The performance of the cms muon detector in proton-proton collisions
+  at s = 7 tev at the lhc.
+\newblock \emph{Journal of Instrumentation}, 8\penalty0 (11):\penalty0 P11002,
+  2013.
+\newblock URL \url{http://stacks.iop.org/1748-0221/8/i=11/a=P11002}.
+
+\bibitem[Azzurri(2006)]{STRIPtracker}
+Paolo Azzurri.
+\newblock The cms silicon strip tracker.
+\newblock \emph{Journal of Physics: Conference Series}, 41\penalty0
+  (1):\penalty0 127, 2006.
+\newblock URL \url{http://stacks.iop.org/1742-6596/41/i=1/a=011}.
+
+\bibitem[Bayatian and Chatrchyan()]{CMStdr}
+G~L Bayatian and et~al. Chatrchyan.
+
+\end{thebibliography}

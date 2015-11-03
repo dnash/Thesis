@@ -1,0 +1,37 @@
+\contentsline {chapter}{Abstract}{i}{dummy.1}
+\vspace {1em}
+\contentsline {chapter}{Acknowledgements}{ii}{dummy.2}
+\vspace {1em}
+\contentsline {chapter}{Contents}{iii}{dummy.3}
+\contentsline {chapter}{List of Figures}{v}{dummy.5}
+\contentsline {chapter}{List of Tables}{vii}{dummy.7}
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.9}
+\contentsline {section}{\numberline {1.1}The Standard Model of Particle Physics}{1}{section.10}
+\contentsline {subsection}{\numberline {1.1.1}Properties of the Standard Model}{1}{subsection.11}
+\contentsline {subsection}{\numberline {1.1.2}Beyond the Standard Model}{3}{subsection.17}
+\contentsline {section}{\numberline {1.2}Leptoquarks}{5}{section.18}
+\contentsline {subsection}{\numberline {1.2.1}Theoretical considerations}{5}{subsection.19}
+\contentsline {subsection}{\numberline {1.2.2}Signatures at the LHC}{6}{subsection.25}
+\contentsline {subsection}{\numberline {1.2.3}Previous searches}{10}{subsection.32}
+\contentsline {chapter}{\numberline {2}The Experimental Apparatus}{14}{chapter.36}
+\contentsline {section}{\numberline {2.1}The Large Hadron Collider}{14}{section.37}
+\contentsline {subsection}{\numberline {2.1.1}Design}{14}{subsection.38}
+\contentsline {subsection}{\numberline {2.1.2}Specifications and parameters}{18}{subsection.42}
+\contentsline {section}{\numberline {2.2}The Compact Muon Solenoid}{20}{section.49}
+\contentsline {subsection}{\numberline {2.2.1}Overview of the Detector}{22}{subsection.52}
+\contentsline {subsection}{\numberline {2.2.2}Conventions and Coordinates}{24}{subsection.55}
+\contentsline {subsection}{\numberline {2.2.3}The Superconducting Solenoid}{25}{subsection.59}
+\contentsline {subsection}{\numberline {2.2.4}The Silicon Tracker}{26}{subsection.63}
+\contentsline {subsection}{\numberline {2.2.5}The Electromagnetic Calorimeter}{30}{subsection.68}
+\contentsline {subsection}{\numberline {2.2.6}The Hadronic Calorimeter}{33}{subsection.71}
+\contentsline {subsection}{\numberline {2.2.7}The Muon system}{36}{subsection.74}
+\contentsline {subsubsection}{\numberline {2.2.7.1}The Resistive Plate Chamber system}{37}{subsubsection.76}
+\contentsline {subsubsection}{\numberline {2.2.7.2}The Drift Tube system}{38}{subsubsection.78}
+\contentsline {subsubsection}{\numberline {2.2.7.3}The Cathode Strip Chamber system}{40}{subsubsection.80}
+\contentsline {subsection}{\numberline {2.2.8}The Trigger system}{44}{subsection.85}
+\contentsline {subsubsection}{\numberline {2.2.8.1}The L1 Trigger}{44}{subsubsection.86}
+\contentsline {subsubsection}{\numberline {2.2.8.2}The HLT}{47}{subsubsection.90}
+\vspace {2em}
+\contentsline {chapter}{\numberline {A}Appendix Title Here}{49}{appendix.91}
+\vspace {2em}
+\contentsline {chapter}{Bibliography}{50}{dummy.92}

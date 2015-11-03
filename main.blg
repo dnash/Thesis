@@ -1,0 +1,92 @@
+This is BibTeX, Version 0.99c (TeX Live 2009/Debian)
+The top-level auxiliary file: main.aux
+The style file: unsrtnat.bst
+Database file #1: Bibliography.bib
+You're missing a field name---line 417 of file Bibliography.bib
+ :   
+ :   %month = {Feb},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 9085 of file Bibliography.bib
+ :       
+ :       SLACcitation   = "",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 9134 of file Bibliography.bib
+ :   
+ :   %month = {Feb},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 9533 of file Bibliography.bib
+ : 
+ : year={1997},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 9548 of file Bibliography.bib
+ : 
+ : year={1997},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 9658 of file Bibliography.bib
+ :       
+ :       title         = "{CMS Physics: Technical Design Report Volume 1: Detector
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--empty journal in StandardModelPrimer
+Warning--empty journal in HalzenAndMartin
+Warning--empty author in H1excess
+Warning--empty title in H1excess
+Warning--empty journal in H1excess
+Warning--empty year in H1excess
+Warning--empty year in H1excess
+Warning--empty author in ZEUSexcess
+Warning--empty title in ZEUSexcess
+Warning--empty journal in ZEUSexcess
+Warning--empty year in ZEUSexcess
+Warning--empty year in ZEUSexcess
+Warning--empty title in CMStdr
+Warning--empty publisher in CMStdr
+Warning--empty year in CMStdr
+Warning--empty year in CMStdr
+You've used 41 entries,
+            2481 wiz_defined-function locations,
+            870 strings with 13757 characters,
+and the built_in function-call counts, 19605 in all, are:
+= -- 1318
+> -- 1717
+< -- 33
++ -- 622
+- -- 540
+* -- 1853
+:= -- 3478
+add.period$ -- 158
+call.type$ -- 41
+change.case$ -- 79
+chr.to.int$ -- 41
+cite$ -- 59
+duplicate$ -- 775
+empty$ -- 1407
+format.name$ -- 620
+if$ -- 3899
+int.to.chr$ -- 1
+int.to.str$ -- 42
+missing$ -- 42
+newline$ -- 248
+num.names$ -- 117
+pop$ -- 283
+preamble$ -- 1
+purify$ -- 41
+quote$ -- 0
+skip$ -- 459
+stack$ -- 0
+substring$ -- 631
+swap$ -- 84
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 284
+warning$ -- 16
+while$ -- 118
+width$ -- 0
+write$ -- 598
+(There were 6 error messages)

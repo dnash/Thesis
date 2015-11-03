@@ -1,0 +1,297 @@
+% Chapter 4
+
+\chapter{The Search for Leptoquarks} % Main chapter title
+
+\label{analysis} % For referencing the chapter elsewhere, use \ref{Chapter1} 
+
+\lhead{Chapter 4. \emph{Search for Leptoquarks}} % This is for the header on each page - perhaps a shortened title
+
+%----------------------------------------------------------------------------------------
+
+%\section{placeholder}
+
+
+Notes:
+
+--> Re iterate signal difficulties, now with plots showing how/what problems it causes
+--> Expand each background study section
+--> Plot of before and after fiducial cut to show acceptance?  
+--> Describe systematics studies in detail
+--> Additional kinematics plots
+--> Show study of the low pt region?
+--> Optimization study - plots/method
+--> Include tables in text
+
+
+\section{Introduction}
+\label{introduction}
+
+Leptoquarks (LQ) are hypothetical color-triplet bosons with spin 0 (scalar LQ) or 1 (vector LQ), which are predicted by many extensions of the standard model (SM) of particle physics, such as Grand Unified Theories~\cite{PhysRevLett.32.438,Pati:1973uk,Pati:1974yy,Murayama:1991ah,Fritzsch:1974nn,Senjanovic:1982ex,PhysRevLett.65.2209,Frampton:1990hz}, technicolor schemes~\cite{Dimopoulos:1979es,Dimopoulos:1979sp,Farhi:1980xs}, and composite models~\cite{Schrempp:1984nj}. They carry fractional electric charge ($\pm1/3$ for LQs considered in this paper) and both baryon and lepton numbers and thus couple to a lepton and a quark.  Existing experimental limits on flavor changing neutral currents and other rare processes disfavor leptoquarks that couple to a quark and lepton of more than one SM generation~\cite{Buchmuller:1986iq,FCNC}.  A discussion of the phenomenology of LQs at the LHC can be found elsewhere~\cite{Belyaev:2005ew}.
+
+The production and decay of LQs at proton-proton colliders are characterized by the mass of the LQ particle, $M_{\text{LQ}}$; its decay branching fraction into a charged lepton and a quark, usually denoted as $\beta$; and the Yukawa coupling $\lambda$ at the LQ-lepton-quark vertex. At hadron colliders, leptoquarks could be produced in pairs via gluon fusion and quark anti-quark annihilation, and singly via quark-gluon fusion. Pair production of LQs does not depend on $\lambda$, while single production does, and thus the sensitivity of single LQ searches depends on $\lambda$.  At lower masses, the cross sections for pair production are greater than those for single production.  Single production cross sections decrease more slowly with mass, exceeding pair production at an order of 1 \TeV for $\lambda$ = 0.6.
+
+Several experiments have searched for LQs.  The H1 collaboration has produced limits on various singly produced LQ types: the one to which to compare this search is the LQ called $S^{R}_{0}$ in Ref.~\cite{Collaboration:2011qaa}, for which they place a limit at 500\GeV, assuming $\lambda=1.0$ and $\beta=1.0$.  The \DZERO collaboration has produced limits on singly produced scalar LQs of 274\GeV, again assuming $\lambda=1.0$ and $\beta=1.0$~\cite{Abazov:2006ej}.  Limits from pair production of leptoquarks exclude leptoquark masses below 1010\GeV for the first generation and 1080\GeV for the second generation, for $\beta=1.0$~\cite{PairProd}.
+
+The main single leptoquark production mode at the LHC is the resonant diagram shown in Fig.~\ref{figapp:ResDiagram}.  However, significant contributions are made by the diagrams with non-resonant components shown in Fig.~\ref{figapp:NonResDiagram}.  These contributions increase with both the LQ mass and coupling; the invariant mass distribution of a first generation LQ, of mass $M_{\text{LQ}} = 1$ \TeV and coupling $\lambda=1.0$, possesses a tail extending to very low masses that is comparable to the peak in magnitude.  The reconstructed shape of the resonance peak itself is not strongly affected by $\lambda$.
+
+Also, interference with the $\PQq \Pg \rightarrow \PQq \cPZ/\gamma^{*}\rightarrow \PQq \ell^{+} \ell^{-}$ SM process can occur at dilepton masses in the vicinity of the $\cPZ$ boson mass peak and at lower energies.  Treatments for this interference region and the above-described low-mass off-shell tail of the lepton-jet mass distribution are detailed in Section~\ref{selection}.
+
+The final-state event signatures from the decays of singly produced LQs can be classified as either that of two charged leptons and a jet, where the LQ decays to a charged lepton and a quark, or of a charged lepton, missing transverse energy, and a jet, where the LQ decays into a neutrino and a quark.  The two signatures have branching fractions of $\beta$ and $1-\beta$, respectively.  For this study, and for $S^{R}_{0}$ type LQs, $\beta$ is 1.0, disregarding LQ decays to a neutrino and a quark.  Because the parton distribution functions (PDF) of the proton are dominated by the u and d quarks, the single production of LQs of second and third generation is suppressed.
+
+The charged leptons can be electrons, muons, or taus, corresponding to the three generations of LQs.  In this paper two distinct signatures with charged leptons in the final state are considered: one with two high transverse momentum ($\PT$) electrons and one high-$\PT$ jet (denoted as $\Pe \Pe j$), and the other with two high--$\PT$ muons and one high-$\PT$ jet (denoted as $\Pgm \Pgm j$).
+
+\begin{figure}[!h]
+       \centering
+       \includegraphics[scale=.45]{Figures/Figures_schannel.pdf} 
+       \caption{The $s$-channel resonant LQ production diagram.
+	  \label{figapp:ResDiagram}}
+\end{figure}
+
+\begin{figure}[!h]
+       \centering       
+       \includegraphics[scale=.45]{Figures/Figures_tchannel1.pdf} 
+       \includegraphics[scale=.45]{Figures/Figures_tchannel2.pdf} 
+       \caption{The $t$-channel LQ production diagrams with non-resonant components.  The diagram in (b) is completely non-resonant.
+	 \label{figapp:NonResDiagram}}
+\end{figure}
+
+\section{The CMS detector}
+\label{cms}
+
+The central feature of the CMS apparatus is a superconducting solenoid of 6\unit{m} internal diameter, providing a magnetic field of 3.8\unit{T}.  Within the solenoid volume are a silicon pixel and strip tracker, a lead tungstate crystal electromagnetic calorimeter (ECAL), and a brass and scintillator hadron calorimeter, each composed of a barrel and two endcap sections.  Extensive forward calorimetry complements the coverage provided by the barrel and endcap detectors.  Muons are measured in gas-ionization detectors embedded in the steel flux-return yoke outside the solenoid. 
+
+The ECAL energy resolution for electrons with $\ET \approx 45$\GeV from $\Z \rightarrow \Pe \Pe$ decays is better than 2\% in the central pseudorapidity region of the ECAL barrel $(\abs{\eta} < 0.8)$, and is between 2\% and 5\% elsewhere. For low-bremsstrahlung electrons, where 94\% or more of their energy is contained within a $3 \times 3$ array of crystals, the energy resolution improves to 1.5\% for $\abs{\eta} < 0.8$~\cite{Chatrchyan:2013dga}.
+
+Muons are measured in the pseudorapidity range $\abs{\eta}< 2.4$ with detection planes made using three technologies: drift tubes, cathode strip chambers, and resistive-plate chambers. Matching muon tracks derived from these measurements to tracks measured in the silicon tracker results in a relative \PT resolution for muons with $20 <\pt < 100\GeV$ of 1.3--2.0\% in the barrel and better than 6\% in the endcaps; the \pt resolution in the barrel is better than 10\% for muons with \pt up to 1\TeV~\cite{Chatrchyan:2012xi}.
+
+The first level of the CMS trigger system, composed of custom hardware processors, uses information from the calorimeters and muon detectors to select the most interesting events. The high-level trigger (HLT) processor farm further decreases the event rate from around 100\unit{kHz} to around 400\unit{Hz}, before data storage.
+
+The particle-flow event algorithm reconstructs and identifies each individual particle with an optimized combination of information from the various elements of the CMS detector. The energy of photons is directly obtained from the ECAL measurement, corrected for zero-suppression effects. The energy of electrons is determined from a combination of the electron momentum at the primary interaction vertex as determined by the tracker, the energy of the corresponding ECAL cluster, and the energy sum of all bremsstrahlung photons spatially compatible with originating from the electron track. The energy of muons is obtained from the curvature of the corresponding track. The energy of charged hadrons is determined from a combination of their momentum measured in the tracker and the matching ECAL and HCAL energy deposits, corrected for zero-suppression effects and for the response function of the calorimeters to hadronic showers. Finally, the energy of neutral hadrons is obtained from the corresponding corrected ECAL and HCAL energy.
+
+A more detailed description of the CMS detector, together with a definition of the coordinate system used and the relevant kinematic variables, can be found in~\cite{Chatrchyan:2008zzk}.
+
+\section{Data and simulation samples}
+\label{samples}
+
+The data were collected during the 8\TeV pp run in 2012 at the CERN LHC and correspond to an integrated luminosity of 19.6\fbinv.  In the $\Pe \Pe j$ channel, events are selected using a trigger that requires two electrons with $\PT > 33$\GeV and $|\eta| < 2.4$ and in the $\Pgm \Pgm j$ channel, events are selected using a trigger that requires one muon with $\PT > 40$\GeV and $|\eta| < 2.1$.
+
+Simulated samples for the signal processes are generated for a range of leptoquark mass hypotheses between 300 and 3300\GeV and coupling hypotheses between 0.4 and 1.0 in the $\Pe \Pe j$ channel, and a range of leptoquark mass hypotheses between 300 and 1800\GeV and a coupling hypothesis of 1.0 in the $\Pgm \Pgm j$ channel.  Production of LQs in the $\Pgm \Pgm j$ channel is suppressed because of the proton PDF as discussed in Section~\ref{introduction}.
+
+The main sources of background are $\ttbar$, $\cPZ/\gamma^* + {\rm jets}$, $\PW + {\rm jets}$, diboson $(\cPZ\cPZ , \cPZ\PW, \PW\PW) + {\rm jets}$, single top quark, and QCD multijet production.  The $\ttbar + {\rm jets}$ background shape is estimated from a study based on data described in Section~\ref{backgrounds}; the simulation sample for the normalization of the $\ttbar + {\rm jets}$ background as well as the samples for the $\cPZ/\gamma^* + {\rm jets}$ and $\PW + {\rm jets}$ backgrounds are generated with \MADGRAPH 5.1~\cite{MadGraph}.  Single top quark samples ($\PQs$-, $\PQt$-channels, and $\PW$ boson associated production) are generated with \POWHEG 1.0~\cite{POWHEG,Alioli:2009je,Frixione:2007vw,Nason:2004rx} and diboson samples are generated with \PYTHIA (version 6.422)~\cite{PYTHIA} using the Z2 tune~\cite{tunez2}.  The QCD multijet background is estimated from data.  
+
+For the simulation of signal samples, the {{\textsc{CalcHEP}}\xspace}~\cite{hepmdb} generator is used for calculation of the matrix elements. The signal cross sections are computed at leading order (LO) with {{\textsc{CalcHEP}}\xspace} and are listed in Table~\ref{tab:sigxsectionscombined} in the appendix.  Blank entries were not considered because of the small size of the cross section. The resonant cross sections $\sigma_{\text{res}}$ are shown in Fig.~\ref{figapp:CrossSections} and are defined by the kinematics selections given in Section~\ref{selection}.
+
+The \PYTHIA and \MADGRAPH simulations use the CTEQ6L1~\cite{CTEQ} PDF sets, those produced with {{\textsc{CalcHEP}}\xspace} use the CTEQ6L PDFs, and the \POWHEG simulation uses the CTEQ6m set.  All of the simulations use \PYTHIA for the treatment of parton showering, hadronization, and underlying event effects.  For both signal and background simulated samples, the simulation of the CMS detector is based on the \GEANTfour package~\cite{GEANT4}.  All simulated samples include the effects of extra collisions in a single bunch crossing as well as collisions from nearby bunch crossings (out-of-time pileup and in-time pileup, respectively).  The pileup profiles in simulation are reweighted to the distributions of the reconstructed vertices per bunch crossing in data collected by the CMS detector.
+
+\begin{figure}[!h]
+       \centering
+       {\includegraphics[width=.45\textwidth]{Figures/Figures_CrossSections.pdf}}
+       \caption{Cross sections for single LQ production, calculated at LO in {{\textsc{CalcHEP}}\xspace} and scaled by the acceptance of the requirements described in Section~\ref{selection}, as a function of the LQ mass in \GeVns.
+	 \label{figapp:CrossSections}}
+\end{figure}
+
+In the $\Pe \Pe j$ channel, the background and signal are rescaled by a uniform trigger efficiency scale factor of 0.996, which is measured in~\cite{CMS-PAPERS-EXO-12-061}.
+In the $\Pgm \Pgm j$ channel, the background and signal are rescaled by muon $\eta$-dependent efficiency factors of 0.94 $(|\eta| \le 0.9$), 0.84 ($0.9 < |\eta| \le 1.2$), and 0.82 ($1.2 < |\eta| \le 2.1$).  An uncertainty of 1\% is assigned to these factors to account for variations during data-taking periods and statistical uncertainties.  
+
+\section{Event reconstruction}
+\label{objectreco}
+
+Muons are reconstructed as tracks in the muon system that are ``globally'' matched to reconstructed tracks in the tracking system~\cite{Chatrchyan:2012xi}.  Muons are required to have $\PT > 45$\GeV and $|\eta| < 2.1$.  Additionally, they are required to satisfy a set of criteria that is optimized for high $\PT$; they are reconstructed as ``global'' muons with tracks associated to hits from at least two muon detector planes together with at least one muon chamber hit that is included in the "global" track fit~\cite{Chatrchyan:2012xi}.  To perform a precise measurement of the \PT and to reduce background from muons from secondary decays in flight, at least eight hits are required in the tracker and at least one in the pixel detector.   To minimize background from muons from cosmic ray backgrounds, the transverse impact parameter with respect to the primary vertex is required to be less than 2 mm and the longitudinal distance is less than 5 mm.  Muons are required to be isolated by applying an upper threshold on the relative tracker isolation of 0.1.  The relative tracker isolation is defined as the ratio of the \PT of all tracks in the tracker coming from the same vertex, excluding the muon candidate track, in a cone of {$\Delta R = \sqrt{\smash[b]{(\Delta \phi) ^2 + (\Delta \eta) ^2}} = 0.3$} (where $\phi$ is the azimuthal angle in radians) around the muon candidate track, and the muon \PT.
+
+Electrons are required to have a reconstructed track in the central tracking system that is matched in $\eta$ and $\phi$ to a cluster of ECAL crystals that has a shape consistent with an electromagnetic shower.  The transverse impact parameter of the track with respect to the primary vertex is required to be less than 2 mm for electrons in the barrel ($\abs{\eta} < 1.442$) and less than 5 mm for electrons in the endcap ($\abs{\eta} > 1.560$).  Electrons are required to be isolated from reconstructed tracks other than the matched track in the central tracking system and from additional energy deposits in the calorimeter.  To reject electrons coming from photon conversions within the tracker material, the reconstructed electron track is required to have hits in all pixel layers.  Electrons in the analysis have $\PT > 45$\GeV and $|\eta| < 2.1$ to match the muon requirements (excluding the transition region between barrel and endcap detectors, $1.442  < \abs{\eta} < 1.560 $).  Selection criteria for electron identification and isolation optimized for high energies are also applied~\cite{CMS-PAPERS-EXO-12-061}.
+
+Jets are reconstructed with the CMS particle-flow algorithm~\cite{CMS-PAS-PFT-09-001,CMS-PAS-PFT-10-001}, which measures
+stable particles by combining information from all CMS subdetectors. The jet reconstruction algorithm used
+in this paper is the anti-k$\rm _T$~\cite{Cacciari:2008gp,fastjetmanual} algorithm with a
+distance parameter $0.5$, which only considers tracks associated to the primary vertex. Jet momentum is determined as the vectorial sum of all particle momenta in the jet, and is found from simulation to be within 5\% to 10\% of the true momentum over the whole \pt spectrum and detector acceptance.  An offset correction is applied to jet energies to take into account the contribution from additional proton-proton interactions within the same bunch crossing. Jet energy corrections are derived from simulation, and are confirmed with in situ measurements of the energy balance in dijet and photon+jet events~\cite{CMS-PAPERS-JME-10-011}. Additional selection criteria are applied to each event to remove spurious jet-like features originating from isolated noise patterns in certain HCAL regions.  The jet energy resolution amounts typically to 15\% at 10\GeV, 8\% at 100\GeV, and 4\% at 1\TeV, to be compared to about 40\%, 12\%, and 5\% obtained when the calorimeters alone are used for jet clustering.
+
+Jets are required to have $\PT>45$\GeV, $|\eta| < 2.4$, and an angular separation from leptons of $\Delta R > 0.3$.
+
+\section{Event selection}
+\label{selection}
+
+We require that events in both the $\Pe \Pe j$ and $\Pgm \Pgm j$ channels contain at least two leptons and at least one jet that satisfy the above identification criteria.  Additional kinematic requirements are applied to remove regions in which the trigger and identification criteria are not at plateau efficiency and to reduce large backgrounds.  This creates a basic preselection region:  the jet $\PT$ must be larger than 125\GeV, the dilepton invariant mass $M_{\ell\ell} $ must be larger than 110\GeV, and the scalar sum of transverse momenta of objects in the event ($\ST = \PT(\ell_1)+\PT(\ell_2)+\PT(j_1)$) is required to exceed 250\GeV, where $\ell_1$ is the highest $\PT$ lepton in the event, $\ell_2$ is the second-highest $\PT$ lepton, and $j_1$ is the highest $\PT$ jet.  The two leptons in the events are required to have opposite charges.  
+
+After this initial selection, a final selection is optimized for each channel separately by maximizing $S/\sqrt{S+B}$, where $S$ is the number of signal events in the simulation passing a given selection and $B$ is the number of background events in the simulation passing the same selection.  We optimize for each LQ mass hypothesis by varying the requirements on $M_{\ell j}$ and $\ST$.
+
+As discussed in Section~\ref{introduction}, owing to the unique aspects of single LQ decays, two generator level requirements are applied to the simulated signal samples.  The first is $M_{\ell\ell} > 110$\GeV, to remove LQ decays that are in the Z boson interference region.  The second is a requirement on $M_{\ell j}$, defined as the higher of the two possible lepton-jet mass combinations, chosen to remove the $t$-channel diagram contributions in the low-mass off-shell region, while preserving most of the resonant signal.  This requirement is set at $M_{\ell j} > 0.67 \, M_{\text{LQ}}$ for the first-generation studies and $M_{\ell j} > 0.75 \, M_{\text{LQ}}$ for the second-generation studies.  The thresholds for $M_{\ell j}$ were chosen separately for each channel, because of the differences in the distribution shape.  The dilepton invariant mass requirement at the generator level precisely matches the reconstruction level requirement at the preselection.  These two requirements define the resonant region.  Cross sections at the generator level before and after these requirements are provided in Table~\ref{tab:sigxsectionscombined}, in the appendix.
+
+The $\Pe \Pe j$ channel selection after optimization is identical for all couplings.  The threshold on $\ST$ starts at 250\GeV for $M_{\text{LQ}}=300$\GeV and increases linearly until it reaches a plateau value of 900\GeV at $M_{\text{LQ}}=1125$\GeV.  The $M_{\ell j}$ threshold starts at 200\GeV for $M_{\text{LQ}}=300$\GeV and increases linearly until it plateaus at 1900\GeV above $M_{\text{LQ}}=2000$\GeV.  In the $\Pgm \Pgm j$ channel after optimization the threshold on $\ST$ starts at 300\GeV for $M_{\text{LQ}}=300$\GeV and increases linearly until it plateaus at 1000\GeV above $M_{\text{LQ}}=1000$\GeV.  The $M_{\ell j}$ threshold starts at 200\GeV for $M_{\text{LQ}}=300$\GeV and increases linearly until it plateaus at 800\GeV above $M_{\text{LQ}}=900$\GeV.  The exact threshold values are listed in Tables \ref{tab:optimizedcuts1p0} and \ref{tab:optimizedcutscmu} in the appendix.
+
+\section{Background estimations}
+\label{backgrounds}
+
+The SM processes that mimic the signal signature are $\cPZ/\gamma^* + {\rm jets}$, $\ttbar$, single top quark, diboson $ + {\rm jets}$, $\PW + {\rm jets}$, and QCD multijets events where the jets are misidentified as leptons.  The dominant contributions come from the former two processes, whereas the other processes provide minor contributions to the total number of background events. 
+ 
+The contribution from the $\cPZ/\gamma^* + {\rm jets}$ background is estimated with a simulated sample that is normalized to agree with data at preselection in the $\cPZ$-enriched region of $80 < M_{\ell\ell} < 100$\GeV, where $M_{\ell\ell}$ is the dilepton invariant mass.  With this selection the data sample (with non-$\cPZ/\gamma^* + {\rm jets}$ simulated samples subtracted) is compared to $\cPZ/\gamma^* + {\rm jets}$ in simulation.  The resulting scale factor, representing the ratio of the measured yield to the predicted yield, is $R_{\cPZ} = 0.98 \pm 0.01 \stat$ in both the $\Pe \Pe j$ and $\Pgm \Pgm j$ channels.  This scale factor is then applied to the simulated $\cPZ/\gamma^* + {\rm jets}$ sample in the signal region of $M_{\ell\ell} > 110$\GeV.  In order to account for possible mismodeling of the $\PT(\ell\ell)$ spectrum of the $\cPZ/\gamma^* + {\rm jets}$ background sample, where $\PT(\ell\ell)$ is the scalar sum of the two highest \PT leptons in the event, we perform a bin-by-bin rescaling of yields at preselection and full selection by scale factors measured in an inverted $M_{\ell\ell}$ selection ($M_{\ell\ell} < 110$\GeV).  These scale factors differ from unity by 1\% to 10\%, depending on the $\PT(\ell\ell)$ bin, and are applied to the $\cPZ/\gamma^* + {\rm jets}$ sample in the signal region of $M_{\ell\ell} > 110$\GeV.
+
+We estimate the $\ttbar$ background with a $\ttbar$-enriched $\Pe \Pgm$ sample in data, selected using the single muon trigger.  We use a selection that is identical to our signal selection in terms of kinematics requirements, except that we require at least a single muon and a single electron rather than requiring two same-flavor leptons.   The $\Pe \Pgm$ sample is considered to be signal-free, because limits on flavor changing neutral currents imply that LQ processes do not present a different-flavor decay topology~\cite{Buchmuller:1986iq,FCNC}. The $\ttbar$ background is largely dominant in the $\Pe \Pgm$ sample with respect to the other backgrounds.  The sample is normalized to account for the different branching fractions of the $\Pe \Pgm$ and $\Pe \Pe$ or $\Pgm \Pgm$ final states ($B(\Pe \Pgm) = 2\, B(\Pe \Pe\text{ or }\Pgm \Pgm)$) and the difference in electron and muon identification and isolation efficiencies, collectively taken to be $R_{(\Pe \Pe \text{ or } \Pgm \Pgm)/\Pe \Pgm}$, for the two channels.  The sample is also normalized by the ratio of the single-muon trigger efficiency and either the double-electron trigger efficiency or single-muon trigger efficiency in two muon final states ($R_{\text{trig},(\Pe \Pe \text{ or } \Pgm \Pgm)}$).  The overall normalization is taken from simulation and the $\Pe \Pgm$ sample is taken from data.  The $\Pe \Pgm$ sample is then used to estimate the contribution from $\ttbar$ at preselection and final selection.  The number of estimated $\ttbar$ events, $N^{\ttbar, \text{est}}$, is 
+
+\begin{eqnarray}
+N^{\ttbar, \text{est}} &=& (N^{\Pe \Pgm, \text{data}}-N^{\Pe \Pgm, \text{non-}\ttbar \text{ sim}}) \times \nonumber \\
+ & & \ \, R_{(\Pe \Pe \text{ or } \Pgm \Pgm)/\Pe \Pgm} \, R_{\text{trig}, (\Pe \Pe \text{ or } \Pgm \Pgm)}
+,
+\label{eq:ttbar}
+\end{eqnarray}
+
+with
+\begin{equation}
+R_{\text{trig},\Pe \Pe} = \frac{\epsilon_{\Pe \Pe}}{\epsilon_{\Pgm}}
+,
+\label{eq:ttbarratio}
+\end{equation}
+
+\begin{equation}
+R_{\text{trig},\Pgm \Pgm } = \frac{1-(1-\epsilon_{\Pgm})^{2}}{\epsilon_{\Pgm}} = 2-\epsilon_{\Pgm}
+,
+\label{eq:ttbarratiomumu}
+\end{equation}
+
+where $\epsilon_{\Pgm}$ and $\epsilon_{\Pe \Pe}$ are the single-muon trigger and double-electron trigger efficiencies, respectively, and $N^{\Pe \Pgm, \text{data}}$ and $N^{\Pe \Pgm, \text{non-}\ttbar \text{ sim}}$ are the number of events observed in data and in other backgrounds in the $\Pe \Pgm$ sample, respectively.  $R_{\text{trig},\Pgm \Pgm }$ is the ratio of the efficiency of a single muon trigger on a dimuon sample over the efficiency on a single muon sample (the numerator is the likelihood of failure on two muons).
+
+The contribution from QCD multijet processes is determined by a method that makes use of the fact that neither signal events nor events from other backgrounds produce final states with same-charge leptons at a significant level.  We create four selections, with both opposite-sign (OS) and same-sign (SS) charge requirements, as well as isolated and non-isolated requirements.  Electrons in isolated events must pass the isolation criteria optimized for high-energy electrons~\cite{CMS-PAPERS-EXO-12-061} and muons are required to have a relative tracker isolation less than 0.1, as discussed in Section~\ref{objectreco}.  Non-isolated events are those with leptons failing these criteria.  The four selections are as follows,
+
+\begin{equation}
+\sloppy
+\left( \begin{array}{cc}
+  A & B  \\
+  C & D  
+\end{array} \right) = 
+\left( \begin{array}{cc}
+  \text{OS+isolated} & \text{OS+non-isolated}  \\
+  \text{SS+isolated} & \text{SS+non-isolated}  
+\end{array} \right).
+\label{eq:ACBDMatrix}
+\end{equation}
+
+The shape of the background is taken from the SS region with isolation requirements, and the normalization is obtained from the ratio between the number of OS events and the number of SS events in the non-isolated selection.  Thus, the number of events, $N^{\text{QCD, est}}$, is estimated by 
+
+\begin{equation}
+\small{
+N^{\text{QCD, est}} = r_{B/D} \, N_{C}^{(\text{data -- non-QCD sim})}
+},
+\label{eq:QCD_ABCDeq}
+\end{equation}
+
+where $N_{C}^{(\text{data -- non-QCD sim})}$ is the number of events in region $C$ of Eq. (\ref{eq:ACBDMatrix}) and $r_{B/D}$ is the ratio of the number of events (measured in data with simulated non-QCD backgrounds subtracted) in regions $B$ and $D$.  The result is that QCD multijet processes account for 2\% (1\%) of the total SM background in the $\Pe \Pe j$ ($\Pgm \Pgm j$) channel.
+
+The contributions of the remaining backgrounds (diboson+jets, \PW+jets, single top quark) are small and are determined entirely from simulation.
+
+The preselection level distributions in $M_{\Pe \Pe}$, $\ST$, and $M_{\ell j}$ are shown in Figs.~\ref{figapp:elemisc} and~\ref{figapp:muonmisc} for the observed data and estimated backgrounds, where they are compared with a signal LQ mass of 1000\GeV in the $\Pe \Pe j$ channel, and with a signal LQ of mass 600\GeV, in the $\Pgm \Pgm j$ channel.  In all plots the $\cPZ/\gamma^* + {\rm jets}$ prediction is normalized to data and the $\ttbar$ prediction is taken from the study based on data.  Data and background are found to be in agreement.  The numbers of events selected in data and in the backgrounds at each final selection (for each hypothesis mass) are shown in Tables~\ref{tab:eenumbers1p0},~\ref{tab:eesignumbers1p0}, and~\ref{tab:mumunumbers} in the appendix.
+
+The observed data and background predictions are compared after final selection for $\lambda = 0.4$ and a signal LQ mass of 1000\GeV in the $\Pe \Pe j$ channel and a signal LQ mass of 600\GeV in the $\Pgm \Pgm j$ channel and are shown in Figs.~\ref{figapp:elefinalsel} and~\ref{figapp:mufinalsel}.
+
+\begin{figure}[!htb]
+       \centering
+       {\includegraphics[width=.75\textwidth]{Figures/Figures_ee_M_HEEPele1ele2_Preselection.pdf}}
+       {\includegraphics[width=.75\textwidth]{Figures/Figures_ee_ST_pf_ee_single_Preselection.pdf}}
+       {\includegraphics[width=.75\textwidth]{Figures/Figures_ee_M_singleLQ_epfjet_Masshigh_Preselection.pdf}}
+       \caption{Distributions of $M_{\Pe \Pe}$ (top), $\ST$ (middle), and $M_{\Pe j}$ (bottom) at preselection in the $\Pe \Pe j$ channel.  ``Other backgrounds'' include diboson, \PW $+$ jets, and single top quark contributions.  The points represent the data and the stacked histograms show the expected background contributions.  The open histogram shows the prediction for an LQ signal for $M_{\text{\text{LQ}}}$ = 1000\GeV and $\lambda=0.4$.  The horizontal error bars on the data points represent the bin width.  The last bin includes overflow. \label{figapp:elemisc}}
+\end{figure}
+
+\begin{figure}[!htb]
+       \centering
+       {\includegraphics[width=.75\textwidth]{Figures/Figures_mumu_M_muon1muon2_Preselection.pdf}}
+       {\includegraphics[width=.75\textwidth]{Figures/Figures_mumu_ST_pf_mumu_single_Preselection.pdf}}
+       {\includegraphics[width=.75\textwidth]{Figures/Figures_mumu_M_singleLQ_mupfjet_Masshigh_Preselection.pdf}}
+       \caption{Distributions of $M_{\Pgm \Pgm}$ (top), $\ST$ (middle), and $M_{\Pgm j}$ (bottom) at preselection in the $\Pgm \Pgm j$ channel.  ``Other backgrounds'' include diboson, \PW $+$ jets, single top quark, and QCD multijet contributions.  The points represent the data and the stacked histograms show the expected background contributions.  The open histogram shows the prediction for an LQ signal for $M_{\text{\text{LQ}}}$ = 600\GeV and $\lambda=1.0$.  The horizontal error bars on the data points represent the bin width.  The last bin includes overflow. \label{figapp:muonmisc}}
+\end{figure}
+
+\begin{figure}[!htb]
+       \centering
+       {\includegraphics[width=.75\textwidth]{Figures/Figures_ee_ST_pf_ee_single_Fullselection.pdf}}
+       {\includegraphics[width=.75\textwidth]{Figures/Figures_ee_M_singleLQ_epfjet_Masshigh_Fullselection.pdf}}
+       \caption{Distributions of $\ST$ and $M_{\Pe j}$ at final selection, in the $\Pe \Pe j$ channel .  The points represent the data and the stacked histograms show the expected background contributions.  The open histogram shows the prediction for an LQ signal for $M_{\text{\text{LQ}}}=1000\GeV$ and $\lambda=0.4$.  The horizontal error bars on the data points represent the bin width.  The last bin includes overflow. \label{figapp:elefinalsel}}
+\end{figure}
+
+\begin{figure}[!htb]
+       \centering
+       {\includegraphics[width=.75\textwidth]{Figures/Figures_mumu_ST_pf_mumu_single_Fullselection.pdf}}
+       {\includegraphics[width=.75\textwidth]{Figures/Figures_mumu_M_singleLQ_mupfjet_Masshigh_Fullselection.pdf}}
+       \caption{Distributions of $\ST$ and $M_{\Pgm j}$ at final selection, in the $\Pgm \Pgm j$ channel.  The points represent the data and the stacked histograms show the expected background contributions.  The open histogram shows the prediction for an LQ signal for $M_{\text{\text{LQ}}}=600\GeV$ and $\lambda=1.0$.  The horizontal error bars on the data points represent the bin width.  The last bin includes overflow. \label{figapp:mufinalsel}}
+\end{figure}
+
+\section{Systematic uncertainties}
+\label{systematics}
+
+The sources of systematic uncertainties considered in this analysis are listed below.  To determine the uncertainties in signal and background, each kinematic quantity listed is varied individually according to its uncertainty and the final event yields are re-measured to determine the variation in the predicted number of background and signal events.
+
+Jet energy scale and resolution uncertainties are estimated by assigning $\PT$- and $\eta$-dependent uncertainties in jet energy corrections as discussed in Ref.~\cite{CMS-PAPERS-JME-10-011}, and varying the jet $\PT$ according to the magnitude of that uncertainty.  The uncertainty in the jet energy resolution is assessed by modifying the $\PT$ difference between the particle level and reconstructed jets by an $\eta$-dependent value between 5\% and 30\% for most jets~\cite{CMS-PAPERS-JME-10-011}.  
+
+Uncertainties in the charged-lepton momentum scale and resolution also introduce uncertainties in the final event acceptance.  An energy scale uncertainty of 0.6\% in the ECAL barrel and 1.5\% in the ECAL endcap is assigned to electrons~\cite{EleUncertainties}, and an uncertainty of 10\% in both the ECAL barrel and endcap is applied to the electron energy resolution~\cite{EleUncertainties}.  There is an uncertainty of 0.6\% per electron in reconstruction, identification, and isolation requirements.  For muons, a $\PT$-dependent scale uncertainty of  $5\% \, (\PT/1 \TeV)$ is applied, as well as a 1--4\% $\PT$-dependent resolution uncertainty~\cite{Chatrchyan:2012xi}.  In the case of momentum scale uncertainties the momentum is directly varied, and in the case of momentum resolution uncertainties the lepton momentum is subjected to a Gaussian random smearing within the uncertainty.  A 2\% per muon uncertainty in reconstruction, identification, and isolation requirements, as well as a 1\% muon HLT efficiency uncertainty, are assumed as well.
+
+Other important sources of systematic uncertainty are related to the modeling of the backgrounds in the simulation.  The uncertainty in the $\cPZ/\gamma^{*}$ $+$ jets background shape  is determined by using simulated samples with renormalization and factorization scales and matrix-element parton-shower matching thresholds varied by a factor of two up and down.  The scale factors for the normalization of the $\cPZ/\gamma^{*}+$ jets background are assigned an uncertainty of 0.6\% in both channels and the normalization of the \ttbar background is assigned an uncertainty of 0.5\% in both channels, from the studies in Section~\ref{backgrounds}, with an additional uncertainty of 4\% applied to the $\ttbar$ background normalization in the $\Pgm \Pgm j$ channel to account for possible signal contamination from first generation LQs in the control sample (the contamination is extremely small in the other channel because of the suppressed second generation signal).  An uncertainty on $\cPZ/\gamma^{*}+$ jets background from the $\PT(\ell\ell)$ scale factors is assessed by taking the weighted average of the uncertainties from each $\PT(\ell\ell)$ bin.  The estimate of the QCD multijet background from data has an uncertainty of 15\%.
+
+An uncertainty in the modeling of pileup in simulation is determined by varying the number of simulated pileup interactions up and down by 6\%~\cite{pileupuncert}, and an uncertainty of 2.6\% on the measured integrated luminosity is applied~\cite{CMS-PAS-LUM-13-001}.
+
+Uncertainties in the signal acceptance, the background acceptance, and the cross sections, due to the PDF choice of 4--10\% for signal and 3--9\% for background are applied, following the PDF4LHC recommendations described in Refs.~\cite{PDF4LHC,Alekhin:2011sk}.
+
+Finally, a statistical uncertainty associated with the size of the simulated sample is included for both background and signal. 
+
+The systematic uncertainties are listed in Table~\ref{tab:systs}, together with their effects on signal and background yields, corresponding to the final selection values optimized for $M_{\text{LQ}} = 600$ \GeV.  The PDF uncertainty is larger in the $\Pgm \Pgm j$ channel because of the large uncertainty associated with the $\PQs$-quark PDF.
+
+\begin{table}
+\caption{Systematic uncertainties (in \%) and their effects on total signal (S) and background (B) in both channels for $M_{\text{LQ}} = 600$ \GeV final selection.}
+\centering
+\begin{tabular}{lcccc}
+{Systematic} & \multicolumn{2}{c}{$\Pe \Pe j$} & \multicolumn{2}{c}{$\Pgm \Pgm j$}\\
+{uncertainty} & {S(\%)} & {B(\%)} & {S(\%)} & {B(\%)}\\
+\hline
+{Jet energy scale} & {0.3} & {1.0} & {0.7} & {1.4}\\
+{Jet energy resolution}  & {0.1} & {0.3}  & {0.3} & {0.4}\\
+{Electron energy scale}  & {0.2} & {2.1} & {-} & {-}\\
+{Electron energy resolution}  & {0.1} & {0.6} & {-} & {-}\\
+{Muon energy scale}  & {-} & {-} & {2.4} & {3.7}\\
+{Muon energy resolution}  & {-} & {-} & {0.2} & {1.1}\\
+{Electron reco/ID/iso}  & {1.2} & {0.1} & {-} & {-}\\
+{Muon reco/ID/iso}  & {-} & {-} & {2.0} & {0.1}\\
+{Trigger}  & {-} & {-}  & {1.0} & {0.1}\\
+{QCD normalization}  & {-} & {0.0} & {-} & {0.1}\\
+{\ttbar normalization}  & {-} & {0.2}  & {-} & {1.1}\\
+{$\cPZ/\gamma^* +{\rm jets}$ normalization}  & {-} & {0.3} & {-} & {0.3}\\
+{$\cPZ/\gamma^* +{\rm jets}$ shape}  & {-} & {5.2} & {-} & {5.6}\\
+{$\cPZ/\gamma^* +{\rm jets}$ $\PT(\ell\ell)$ scale factor}  & {-} & {2.6} & {-} & {3.0}\\
+{PDF}  & {3.5} & {3.0}  & {3.0} & {2.8}\\
+{Pileup}  & {2.5} & {0.6} & {2.8} & {1.9}\\
+{Integrated luminosity} & {2.6} & {0.3} & {2.6} & {0.2}\\
+{Statistical uncertainty} & {1.3} & {3.5} & {1.4} & {4.3}\\
+\hline
+{Total}  & {5.3} & {8.1}  & {6.05} & {8.1}\\
+\end{tabular}
+\label{tab:systs}
+\end{table}
+
+\section{Results}
+\label{results}
+The observed data are consistent with the no-signal hypothesis.  We set an upper limit on the leptoquark cross section by using the \CLS modified frequentist method~\cite{Read:2002hq,Junk:1999kv} with the final event yields.  A log-normal probability function is used to model the systematic uncertainties, whereas statistical uncertainties are described with gamma distributions with widths determined according to the number of events simulated or measured in data control regions.
+
+To isolate the limits for resonant LQ production, we apply the resonant requirements at the generator level on both the lepton+jet mass, $M(\ell,j)> (0.67 \text{ or } 0.75 )\, M_{\text{LQ}}$ (for the first- or second- generation LQs, respectively), and on the dilepton mass, $M_{\ell \ell}> 110$\GeV.  These requirements make the limits extracted from data more conservative and are discussed in Section~\ref{selection}.  A resonant cross section $\sigma_{\text{res}}$ is computed with respect to those requirements.  Limits are then computed with the reduced sample of simulated signal events and compared to $\sigma_{\text{res}}$. 
+
+The 95\% confidence level (\CL) upper limits on $\sigma_{\text{res}} \, \beta$ as a function of leptoquark mass are shown in Fig.~\ref{figapp:combinedlims} together with the resonant cross section predictions for the scalar leptoquark single production cross section.  The uncertainty band on the theoretical cross section prediction corresponds to uncertainties in the total cross section due to PDF variations with an additional $+70\%$ uncertainty, due to the k factor ~\cite{Hammett:2015sea}.  The observed limits are listed in Tables \ref{tab:optimizedcuts1p0} and \ref{tab:optimizedcutscmu} in the appendix.
+
+\begin{figure}[!htbp]
+       \centering
+       {\includegraphics[width=.75\textwidth]{Figures/Figures_ee_FiducialLimits_UEExclusion_1p0.pdf}}
+       {\includegraphics[width=.75\textwidth]{Figures/Figures_mumu_FiducialLimits_Mu_Exclusion.pdf}}
+       \caption{Expected and observed upper limits at 95\%~\CL on first and second generation leptoquark single production resonant cross section as a function of the leptoquark mass.  First generation limits are shown on the top plot with a resonant region of $M_{\ell j} > 0.66 \, M_{\text{LQ}}$, $M_{\ell \ell}> 110$\GeV and second generation limits are shown on the bottom plot with a resonant region of $M_{\ell j} > 0.75 \, M_{\text{LQ}}$, $M_{\ell \ell}> 110$\GeV.  The uncertainty bands on the observed limit represent the 68\% and 95\% confidence intervals.  The uncertainty band on the theoretical cross section includes uncertainties due to PDF variation and the k factor.\label{figapp:combinedlims}}
+\end{figure}
+
+By comparing the observed upper limit with the theoretical production cross-section times branching fraction, we exclude single leptoquark production at 95\% ~\CL for LQ masses below the values given in Table~\ref{figapp:limitstable}.
+
+\begin{table}[!htbp]
+\caption{95\% ~\CL lower limits on scalar LQ masses ($\beta = 1.0$).}
+\centering
+\begin{tabular}{rc}
+LQ generation, coupling & Excluded mass (\GeVns) \\
+\hline
+{First gen., $\lambda=0.4$} & {   860} \\
+{First gen., $\lambda=0.6$} & {1175} \\
+{First gen., $\lambda=0.8$} & {1355} \\
+{First gen., $\lambda=1.0$} & {1755} \\
+{Second gen., $\lambda=1.0$} & {     660} \\
+\end{tabular}
+\label{figapp:limitstable}
+\end{table}
+
+Limits on single production of the $S^{R}_{0}$ type LQ from the H1 collaboration exclude LQ production up to 500\GeV ($\lambda=1.0$) and up to 350\GeV ($\lambda=0.6$)~\cite{Collaboration:2011qaa}.
+
